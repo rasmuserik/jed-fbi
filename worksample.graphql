@@ -1,0 +1,202 @@
+query ($pid: String!) {
+  work(pid: $pid) {
+    workId
+    titles {
+      titlePlusLanguage
+    }
+    manifestations {
+      bestRepresentation {
+        pid
+      }
+      mostRelevant {
+        pid
+      }
+      all {
+                cover {
+          detail
+          origin
+          detail_500
+          thumbnail
+        }
+        pid
+        titles {
+          main
+          full
+          sort
+          original
+          alternative
+          titlePlusLanguage
+        }
+        abstract
+        access {
+          __typename
+        }
+        accessTypes {
+          display
+        }
+        audience {
+          ages {
+            display
+            begin
+            end
+          }
+          primaryTarget
+          generalAudience
+          childrenOrAdults {
+            display
+            code
+          }
+        }
+        classifications {
+          code
+          system
+          entryType
+          dk5Heading
+        }
+        edition {
+          edition
+          note
+          contributors
+          publicationYear {
+            year
+            display
+            endYear
+            frequency
+          }
+        }
+        contributors {
+          roles {
+            function {
+              plural
+              singular
+            }
+            functionCode
+          }
+          display
+          nameSort
+        }
+        creators {
+          display
+          roles {
+            functionCode
+          }
+        }
+        creatorsFromDescription
+        contributorsFromDescription
+        genreAndForm
+        manifestationParts {
+          type
+          parts {
+            title
+            creators {
+              display
+              roles {
+                functionCode
+              }
+            }
+            classifications {
+              code
+              system
+              dk5Heading
+            }
+          }
+          heading
+        }
+        series {
+          title
+          members {
+            work {
+              workId
+            }
+            numberInSeries
+            readThisFirst
+            readThisWhenever
+          }
+        }
+        subjects {
+          all {
+            type
+            local
+            language {
+              isoCode
+            }
+            display
+          }
+          dbcVerified {
+            display
+          }
+        }
+        volume
+        edition {
+          edition
+          summary
+          note
+        }
+        review {
+          rating
+          reviewByLibrarians {
+            type
+            content
+            heading
+            manifestations {
+              pid
+            }
+            contentSubstitute
+          }
+        }
+        relations {
+          hasReview {
+            review {
+              reviewByLibrarians {
+                content
+              }
+            }
+          }
+        }
+      }
+    }
+    relations {
+      hasAnalysis {
+        pid
+        titles {
+          full
+        }
+      }
+      hasDescriptionFromPublisher {
+        pid
+        titles {
+          full
+        }
+      }
+      hasReview {
+        pid
+        titles {
+          full
+        }
+        review {
+          reviewByLibrarians {
+            type
+            content
+            heading
+            contentSubstitute
+            manifestations {
+              pid
+            }
+          }
+        }
+      }
+      hasCreatorDescription {
+        pid
+        titles {
+          full
+        }
+      }
+      hasDescriptionFromPublisher {
+        pid
+        titles {
+          full
+        }
+      }
+    }
+  }
+}
