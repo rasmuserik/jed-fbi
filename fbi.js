@@ -4,7 +4,7 @@ let fs = require("fs");
 let db;
 let _initialised = false;
 function initdb() {
-  if(_initialised) return;
+  if (_initialised) return;
   _initialised = true;
   db = new sqlite("bib.db");
   //db.exec(`DROP TABLE IF EXISTS bib;`)
@@ -23,33 +23,36 @@ function initdb() {
 }
 async function allPids() {
   initdb();
-  return db.prepare(`SELECT pid FROM bib`).all().map(x => x.pid);
+  return db
+    .prepare(`SELECT pid FROM bib`)
+    .all()
+    .map((x) => x.pid);
 }
 async function manifest(pid) {
   initdb();
   pid = decodeURIComponent(pid).toLowerCase();
   if (!db.prepare(`SELECT id FROM bib WHERE pid = ?`).get(pid)?.id) {
-    console.log('fetching', pid);
-    let work = await fetchWork(pid)
+    console.log("fetching", pid);
+    let work = await fetchWork(pid);
     for (const o of work) {
       dbput(o);
     }
     let workId = work[0].ownerWork.workId.replace("work-of:", "");
     let wid = db.prepare(`SELECT id FROM bib WHERE pid = ?`).get(workId)?.id;
-    for(const o of work) {
+    for (const o of work) {
       db.prepare(`UPDATE bib SET wid = ? WHERE pid = ?`).run(wid, o.pid);
     }
-    for(const o of work) {
-      for(const relName in o.relations) {
-        for(const rel of o.relations[relName]) {
-          if(rel.pid) await manifest(rel.pid);
+    for (const o of work) {
+      for (const relName in o.relations) {
+        for (const rel of o.relations[relName]) {
+          if (rel.pid) await manifest(rel.pid);
         }
       }
     }
   }
   return JSON.parse(
     db.prepare(`SELECT json FROM bib WHERE pid = ?`).get(pid)?.json ||
-      "undefined"
+      "undefined",
   );
 }
 function dbput(o) {
@@ -68,9 +71,9 @@ async function getToken() {
         authorization:
           "Basic " +
           Buffer.from(
-            `${
-            process.env.OPENPLATFORM_CLIENTID|| process.env.CLIENT_ID}:${
-process.env.OPENPLATFORM_CLIENTSECRET || process.env.CLIENT_SECRET}`
+            `${process.env.OPENPLATFORM_CLIENTID || process.env.CLIENT_ID}:${
+              process.env.OPENPLATFORM_CLIENTSECRET || process.env.CLIENT_SECRET
+            }`,
           ).toString("base64"),
         "Content-Type": "application/x-www-form-urlencoded",
       },
@@ -104,5 +107,5 @@ async function fetchWork(pid) {
 }
 module.exports = {
   manifest,
-  allPids
-}
+  allPids,
+};
