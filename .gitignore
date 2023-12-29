@@ -130,3 +130,5 @@ dist
 .pnp.*
 bib.db
 package-lock.json
+errors.txt
+bib.db*

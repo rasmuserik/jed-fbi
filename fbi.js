@@ -2,22 +2,49 @@ let sqlite = require("better-sqlite3");
 let fs = require("fs");
 
 let db;
+let _initialised = false;
 function initdb() {
+  if(_initialised) return;
+  _initialised = true;
   db = new sqlite("bib.db");
+  //db.exec(`DROP TABLE IF EXISTS bib;`)
   db.exec(`
     CREATE TABLE IF NOT EXISTS bib (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       pid TEXT UNIQUE,
       wid INTEGER,
-      json TEXT
+      json TEXT,
+      fetched DATETIME DEFAULT CURRENT_TIMESTAMP
     );
   `);
+  // add pragmas for performance
+  db.pragma("synchronous=NORMAL");
+  db.pragma("journal_mode=WAL");
 }
-async function jed(pid) {
+async function allPids() {
+  initdb();
+  return db.prepare(`SELECT pid FROM bib`).all().map(x => x.pid);
+}
+async function manifest(pid) {
+  initdb();
   pid = decodeURIComponent(pid).toLowerCase();
   if (!db.prepare(`SELECT id FROM bib WHERE pid = ?`).get(pid)?.id) {
-    for (const o of await fetchWork(pid)) {
+    console.log('fetching', pid);
+    let work = await fetchWork(pid)
+    for (const o of work) {
       dbput(o);
+    }
+    let workId = work[0].ownerWork.workId.replace("work-of:", "");
+    let wid = db.prepare(`SELECT id FROM bib WHERE pid = ?`).get(workId)?.id;
+    for(const o of work) {
+      db.prepare(`UPDATE bib SET wid = ? WHERE pid = ?`).run(wid, o.pid);
+    }
+    for(const o of work) {
+      for(const relName in o.relations) {
+        for(const rel of o.relations[relName]) {
+          if(rel.pid) await manifest(rel.pid);
+        }
+      }
     }
   }
   return JSON.parse(
@@ -53,12 +80,7 @@ async function getToken() {
   return _token;
 }
 let manifestFields = fs.readFileSync("./manifest.graphql", "utf8");
-let pids = fs
-  .readFileSync("./pids.txt", "utf8")
-  .split("\n")
-  .filter((x) => x);
 async function fetchWork(pid) {
-  console.log("fetchWork", pid);
   let res = await fetch("https://fbi-api.dbc.dk/SimpleSearch/graphql", {
     method: "POST",
     headers: {
@@ -78,26 +100,7 @@ async function fetchWork(pid) {
   });
   return (await res.json()).data.work.manifestations.all;
 }
-
-let sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
-let errors = [];
-async function main() {
-  initdb();
-  let i = 0;
-  let t0 = Date.now();
-  let t1 = Date.now();
-  for (const pid of pids) {
-    try {
-      console.log(++i, errors.length, Date.now() - t1,(Date.now() - t0)/i | 0,  pid);
-      t1 = Date.now();
-      await jed(pid);
-    } catch (e) {
-      errors.push(pid);
-      console.error(e);
-    }
-  }
-  fs.writeFileSync("errors.txt", errors.join("\n"));
-  await sleep(100000000);
+module.exports = {
+  manifest,
+  allPids
 }
-main();
