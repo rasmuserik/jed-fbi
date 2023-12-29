@@ -68,7 +68,9 @@ async function getToken() {
         authorization:
           "Basic " +
           Buffer.from(
-            `${process.env.CLIENT_ID}:${process.env.CLIENT_SECRET}`
+            `${
+            process.env.OPENPLATFORM_CLIENTID|| process.env.CLIENT_ID}:${
+process.env.OPENPLATFORM_CLIENTSECRET || process.env.CLIENT_SECRET}`
           ).toString("base64"),
         "Content-Type": "application/x-www-form-urlencoded",
       },

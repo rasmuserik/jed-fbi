@@ -32,6 +32,5 @@ async function main() {
     }
   }
   fs.writeFileSync("errors.txt", errors.join("\n"));
-  await sleep(100000000);
 }
 main();
