@@ -1,12 +1,10 @@
-Stikprøve af bibliografiske datas brug af JED-formatet, – samt noter
-
 # Noter om JED (bibliografiske format).
 
-Jeg har kigge lidt på JED-formatet, og her er nogle noter om dette:
+Her er nogle hurtige noter om JED-formatet
 
 1. Generelt indtryk
 2. Små idéer/forslag til forbedringer
-3. Stikprøve med bibliografiske data for at se hvilke felter der benyttes praksis
+3. Stikprøve af bibliografiske data, for at se hvilke felter der benyttes praksis
 
 ## Generelt indtryk
 
@@ -29,14 +27,14 @@ Tror at det er godt med et nyt format, som virker til at bygge på / mappe fra b
 - Måske kan `series[].members[].numberInSeries` bruges til at forbedre værkmatch. Eksempelvis er værkerne `work-of:870970-basis:27091423` og `work-of:870970-basis:28995938` er begge nummer 5 og ser umiddelbart ser begge ud til at være samme værk, – og lignende situation dukker op ved de øvrige værker i serien.
 - Curl-kommandoen fra https://fbi-api.dbc.dk/documentation virkede ikke med mit client-id. Jeg fik fejlen `{"error":"server_error","error_description":"Server error: missing client 'grants'"}`.  I stedet hentede jeg bare token som beskrevet på https://openplatform.dbc.dk/v3/.  Forskellen var om token blev hentet fra `https://login.bib.dk/oauth/token` eller `https://auth.dbc.dk/oauth/token`, så måske skal dette ændres i dokumentationen.
 
-## Stikprøve med bibliografiske data for at se hvilke felter der benyttes praksis
+## Stikprøve af bibliografiske data for at se hvilke felter der benyttes praksis
 
 Herunder er en hurtig oversigt over hvor ofte forskellige dele af JED-formatet bliver brugt i praksis, baseret på en stikprøve.  Oversigten er nyttig ifht. hvilke data man skal tage højde for.
 
-På grund af begrænset tid, er alt ikke med, eksempelvis mangler detaljer om ophav/person, access, etc. Det kunne også være rart med statistik over de mest populære værdier(nøgleorde, materialetype, forfatter, ...), et større statistiskgrundlag, og brugervenlig grænseflade til at gå på opdagelse i statistikken. Giv lyd hvis det har interesse.
+På grund af begrænset tid, er alt ikke med, eksempelvis mangler detaljer om ophav/person, access, etc. Det kunne også være rart med <small>1)</small> statistik over populære værdier(nøgleord, materialetype, forfatter, ...), et <small>2)</small> større statistikgrundlag, og <small>3)</small> brugervenlig grænseflade til at gå på opdagelse i statistikken. Giv lyd hvis det har interesse.
 
 <!-- på ca. 738.000 poster (heraf 426K katalog-poster og 170K basisposter). Stikprøven er fundet ved at hente værker og relaterede poster til 80K tilfældige PID'er, der blev vist i DDB-CMS i november 2023.-->
-Statistik:
+Statistik over andel af poster hvor felter forekommer:
 
 ```
 - 100% workType
@@ -61,7 +59,7 @@ Statistik:
     - 1.1% audience.let
 - 99.9% cover.detail/thumbnail (default-forside eller faktisk forside)
     - 15.4% `cover.detail_NNNN` med faktisk forside
-- 99.0% edition, heraf
+- 99.0% edition, heraf:
     - 100% edition.summary – sammenfatter nedenstående
     - 99% edition.publicationYear.year
         - 2.2% edition.publicationYear.frequency
@@ -69,7 +67,7 @@ Statistik:
     - edition.edition (tom streng i stedet for null hvis ingen data)
     - 1.1% edition.contributors:
     - 0.5% edition.note
-- 98.0% languages.main, heraf
+- 98.0% languages.main, heraf:
     - 24.7% languages.original
     - 3.9% languages.notes
     - 2.2% languages.subtitles
@@ -78,7 +76,7 @@ Statistik:
     - 0.5% languages.parallel
 - 93.9% creators, heraf
     - 74.1% creators.roles
-- 85.8% physicalDescription, heraf
+- 85.8% physicalDescription, heraf:
     - 100% summary
     - 84.6% extent
     - 83.6% numberOfPages
@@ -116,7 +114,7 @@ Statistik:
 - 36.3% contributors, heraf:
     - 59.2% contributors.roles
 - 30.1% series
-- 28.6% latestPrinting, heraf
+- 28.6% latestPrinting, heraf:
     - 100%: summary, publicationYear, printing
     - 0.9%: publisher
 - 23.0% dateFirstEdition
