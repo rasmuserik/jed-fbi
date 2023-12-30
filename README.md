@@ -33,12 +33,12 @@ Tror at det er godt med et nyt format, som virker til at bygge på / mappe fra b
 
 Herunder er en hurtig oversigt over hvor ofte forskellige dele af JED-formatet bliver brugt i praksis, baseret på en stikprøve.  Oversigten er nyttig ifht. hvilke data man skal tage højde for.
 
+På grund af begrænset tid, er alt ikke med, eksempelvis mangler detaljer om ophav/person, access, etc. Det kunne også være rart med statistik over de mest populære værdier(nøgleorde, materialetype, forfatter, ...), et større statistiskgrundlag, og brugervenlig grænseflade til at gå på opdagelse i statistikken. Giv lyd hvis det har interesse.
 
 <!-- på ca. 738.000 poster (heraf 426K katalog-poster og 170K basisposter). Stikprøven er fundet ved at hente værker og relaterede poster til 80K tilfældige PID'er, der blev vist i DDB-CMS i november 2023.-->
 Statistik:
 
-<small>
-
+```
 - 100% workType
 - 100% materialTypes
 - 100% source
@@ -131,7 +131,4 @@ Statistik:
 - 2.8% review.rating
 - 2.7% volume
 - 2.3% manifestationParts
-
-</small>
-
-På grund af begrænset tid, er alt ikke med, eksempelvis mangler detaljer om ophav/person, access, etc. Det kunne også være rart med statistik over de mest populære værdier(nøgleorde, materialetype, forfatter, ...), et større statistiskgrundlag, og brugervenlig grænseflade til at gå på opdagelse i statistikken. Giv lyd hvis det har interesse.
+```
