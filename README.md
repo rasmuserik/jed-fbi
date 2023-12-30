@@ -1,3 +1,5 @@
+Stikprøve af bibliografiske datas brug af JED-formatet, – samt noter
+
 # Noter om JED (bibliografiske format).
 
 Jeg har kigge lidt på JED-formatet, og her er nogle noter om dette:
