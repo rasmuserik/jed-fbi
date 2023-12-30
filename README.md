@@ -29,7 +29,7 @@ Tror at det er godt med et nyt format, som virker til at bygge på / mappe fra b
 
 ## Stikprøve af bibliografiske data for at se hvilke felter der benyttes praksis
 
-Herunder er en hurtig oversigt over hvor ofte forskellige dele af JED-formatet bliver brugt i praksis, baseret på en stikprøve.  Oversigten er nyttig ifht. hvilke data man skal tage højde for.
+Herunder er en oversigt over, hvor ofte forskellige dele af JED-formatet bliver brugt i praksis, baseret på en stikprøve.  Oversigten giver indsigt i data, og er nyttig ifht. hvilke data man skal tage højde for.
 
 På grund af begrænset tid, er alt ikke med, eksempelvis mangler detaljer om ophav/person, access, etc. Det kunne også være rart med <small>1)</small> statistik over populære værdier(nøgleord, materialetype, forfatter, ...), et <small>2)</small> større statistikgrundlag, og <small>3)</small> brugervenlig grænseflade til at gå på opdagelse i statistikken. Giv lyd hvis det har interesse.
 
