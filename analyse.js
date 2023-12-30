@@ -65,6 +65,6 @@ async function main() {
     }
   }
   writeStats();
-  await sleep(100000000);
+//  await sleep(100000000);
 }
 main();
