@@ -38,6 +38,7 @@ Herunder er en hurtig oversigt over hvor ofte forskellige dele af JED-formatet b
 Statistik:
 
 <small>
+
 - 100% workType
 - 100% materialTypes
 - 100% source
@@ -130,6 +131,7 @@ Statistik:
 - 2.8% review.rating
 - 2.7% volume
 - 2.3% manifestationParts
+
 </small>
 
 På grund af begrænset tid, er alt ikke med, eksempelvis mangler detaljer om ophav/person, access, etc. Det kunne også være rart med statistik over de mest populære værdier(nøgleorde, materialetype, forfatter, ...), et større statistiskgrundlag, og brugervenlig grænseflade til at gå på opdagelse i statistikken. Giv lyd hvis det har interesse.
