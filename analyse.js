@@ -1,5 +1,14 @@
 let { manifest, allPids } = require("./fbi.js");
 
+function shuffle(arr) {
+    for (let i = 0; i < arr.length; ++i) {
+          let j = Math.floor(Math.random() * arr.length);
+          let t = arr[i];
+          arr[i] = arr[j];
+          arr[j] = t;
+        }
+} 
+
 let sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 let stats = {};
@@ -9,6 +18,7 @@ let enumerate = [
   ".subjects.all[].type",
   ".workTypes[]",
 ];
+enumerate = [];
 function stat(o, prefix = "") {
   let s = stats[prefix] || (stats[prefix] = { count: 0, has: 0, samples: [] });
   s.count++;
@@ -55,16 +65,16 @@ function writeStats() {
 async function main() {
   let i = 0;
   let pids = await allPids();
+  shuffle(pids);
   for (const pid of pids) {
-    if (0 || pid.startsWith("870970-basis:")) {
+    //if ( pid.match(/^[0-9]*-katalog:/)) 
+    //if ( pid.match(/^870970-basis:/)) 
       stat(await manifest(pid));
-    }
     if (++i % 1000 === 0) {
-      console.log(pid);
-      console.log(i, pids.length);
+      console.error(i, pids.length, pid);
     }
   }
   writeStats();
-  await sleep(100000000);
+  //await sleep(100000000);
 }
 main();

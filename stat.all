@@ -1,0 +1,398 @@
+ 100% 738183/738183 []
+.abstract 54.9% 405411/738183 []
+.abstract[] 100% 419804/419804 ["Ved hjælp af Karen Blixens (1885-1962) egne breve til familie og venner samt andre sam- og nutidige kilder gives en samlet vurdering af forfatterens ophold i Kenya. Be
+.access 87.1% 643173/738183 []
+.accessTypes 100% 738183/738183 []
+.accessTypes[] 100% 783558/783558 []
+.accessTypes[].code 100% 783558/783558 ["PHYSICAL","PHYSICAL","PHYSICAL","PHYSICAL","PHYSICAL","PHYSICAL","PHYSICAL","PHYSICAL","PHYSICAL","PHYSICAL"]
+.accessTypes[].display 100% 783558/783558 ["fysisk","online","fysisk","fysisk","fysisk","online","fysisk","fysisk","online","online"]
+.access[] 100% 724289/724289 []
+.access[].__typename 100% 724289/724289 ["DigitalArticleService","InfomediaService","InterLibraryLoan","InterLibraryLoan","InterLibraryLoan","InterLibraryLoan","InterLibraryLoan","InterLibraryLoan","I
+.audience 100% 738183/738183 []
+.audience.ages 15.3% 113010/738183 []
+.audience.ages[] 100% 113010/113010 []
+.audience.ages[].begin 100% 113010/113010 [10,9,13,6,9,14,14,5,11,6]
+.audience.ages[].display 100% 113010/113010 ["10-13","8-13","9-12","5-7","11-13","6-12","5-8","14-16","10-12","6-8"]
+.audience.ages[].end 100% 113010/113010 [13,13,11,8,12,15,10,12,7,13]
+.audience.childrenOrAdults 100% 738183/738183 []
+.audience.childrenOrAdults[] 100% 748101/748101 []
+.audience.childrenOrAdults[].code 100% 748101/748101 ["FOR_ADULTS","FOR_ADULTS","FOR_ADULTS","FOR_CHILDREN","FOR_ADULTS","FOR_CHILDREN","FOR_ADULTS","FOR_ADULTS","FOR_ADULTS","FOR_ADULTS"]
+.audience.childrenOrAdults[].display 100% 748101/748101 ["til voksne","til voksne","til børn","til voksne","til voksne","til voksne","til voksne","til voksne","til voksne","til børn"]
+.audience.generalAudience 14.6% 108055/738183 []
+.audience.generalAudience[] 100% 173728/173728 ["for pædagoguddannelse","Mærkning: Tilladt for alle","let at læse","for pædagoger","Beregnet for gymnasiets B-niveau i religion","I Tyskland: Tilladt fr
+.audience.let 1.1% 8814/738183 ["19","19","16","11","16","12","15","13","12","11"]
+.audience.libraryRecommendation 6.4% 47875/738183 ["fra 14 år","fra 11 år","fra 14 år","fra 15 år","fra 15 år","fra 15 år","fra 14 år","fra 15 år","fra 15 år","fra 11 år"]
+.audience.lix 3.5% 26342/738183 ["16","43","13","29","11","10","10","17","19","29"]
+.audience.primaryTarget 25.3% 186854/738183 []
+.audience.primaryTarget[] 100% 280480/280480 ["højere fagligt niveau","alment niveau","gymnasieniveau","alment niveau","alment niveau","alment niveau","alment niveau","alment niveau","folkeskoleniveau
+.audience.schoolUse 5.2% 38409/738183 []
+.audience.schoolUse[] 100% 38409/38409 []
+.audience.schoolUse[].code 100% 38409/38409 ["FOR_SCHOOL_USE","FOR_SCHOOL_USE","FOR_TEACHER","FOR_SCHOOL_USE","FOR_TEACHER","FOR_SCHOOL_USE","FOR_SCHOOL_USE","FOR_SCHOOL_USE","FOR_SCHOOL_USE","FOR_SCH
+.audience.schoolUse[].display 100% 38409/38409 ["til skolebrug","til skolebrug","til læreren","til skolebrug","til skolebrug","til skolebrug","til skolebrug","til skolebrug","til skolebrug","til skole
+.catalogueCodes 100% 738183/738183 []
+.catalogueCodes.nationalBibliography 57.5% 424859/738183 []
+.catalogueCodes.nationalBibliography[] 100% 540432/540432 ["DBF202012","DAR201422","DBF199945","DAR198904","DBF199144","DBF200709","DBF199541","DBF199816","DBF200110","DBF201723"]
+.catalogueCodes.otherCatalogues 58.3% 430491/738183 []
+.catalogueCodes.otherCatalogues[] 100% 1148801/1148801 ["ACC202007","ACC200447","NOV198507","ACC200202","BKM202040","SFD200340","ACC201739","BKM202214","BKM201534","SFD200637"]
+.classifications 76.8% 567608/738183 []
+.classifications[] 100% 1000691/1000691 []
+.classifications[].code 100% 1000691/1000691 ["37.14905","86-06","99.4","fb","77.74","87-296","86-06","81.3","159.923","78.799"]
+.classifications[].display 100% 1000691/1000691 ["37.14905 Skolefag i alm.","37.17 Pædagogisk uddannelse","60.1 Virksomhedsledelse i alm.","Skønlitteratur","Skønlitteratur","77.6 Film. Video","Skønlit
+.classifications[].dk5Heading 92.4% 924839/1000691 ["Skolefag i alm.","Dansk litteraturhistorie. 1930-1999","Biografier af enkelte personer","Filosofiens historie i alm. Tyskland","Skønlitteratur","Sk
+.classifications[].entryType 92.4% 925302/1000691 ["MAIN_ENTRY","ADDITIONAL_ENTRY","MAIN_ENTRY","MAIN_ENTRY","MAIN_ENTRY","MAIN_ENTRY","NATIONAL_BIBLIOGRAPHY_ENTRY","MAIN_ENTRY","ADDITIONAL_ENTRY","MA
+.classifications[].system 100% 1000691/1000691 ["DK5","UDC","DK5","UDC","DK5","DK5","DK5","DK5","DK5","DK5"]
+.contributors 36.3% 268488/738183 []
+.contributorsFromDescription 15.9% 117564/738183 []
+.contributorsFromDescription[] 100% 158214/158214 ["oversat af Frank Jæger","læsepædagogisk bearbejdelse: Merete Ross","ekstern redaktion: Knud Ryg Olsen","illustreret af: Craig Stevens","på dansk ved
+.contributors[] 100% 728516/728516 []
+.contributors[].display 100% 728516/728516 ["Dansklærerforeningen","Marian Friborg","Renée Zellweger","Revka El Baz","Pierre Marchand","Willem Dafoe","Sebastian Schultz","R. L. Stine","Caleel Harris",
+.contributors[].nameSort 100% 728516/728516 ["dansklærerforeningen","moreira sebastiao","owen lloyd","kristensen evald tang","ramstedt carl marcus","harris caleel","munck charlotte","svarstad lone k",
+.contributors[].roles 59.2% 431622/728516 []
+.contributors[].roles[] 100% 441130/441130 []
+.contributors[].roles[].function 100% 441130/441130 []
+.contributors[].roles[].function.plural 100% 441130/441130 ["illustratorer","skuespillere","redaktører","oversættere","redaktører","redaktører","skuespillere","indlæsere","oversættere","kunstnere"]
+.contributors[].roles[].function.singular 100% 441130/441130 ["illustrator","skuespiller","skuespiller","oversætter","oversætter","filmfotograf","skuespiller","redaktør","oversætter","skuespiller"]
+.contributors[].roles[].functionCode 100% 441130/441130 ["ill","ill","act","act","art","trl","dkbea","ill","dkind","dkind"]
+.cover 100% 738183/738183 []
+.cover.detail 99.9% 738166/738183 ["https://default-forsider.dbc.dk/covers-29/large/53585180-8d75-58d3-81f0-d291d3cf279e.jpg","https://default-forsider.dbc.dk/covers-29/large/84dca2f6-d9f4-58d1-8c1e-a
+.cover.detail_500 15.4% 113880/738183 ["https://moreinfo.addi.dk/2.11/more_info_get.php?lokalid=47789532&attachment_type=forside_500&bibliotek=870970&source_id=150020&key=a0900418b4b865975b86","https:
+.cover.origin 99.9% 738166/738183 ["default","default","default","default","default","moreinfo","default","default","default","default"]
+.creators 93.9% 693762/738183 []
+.creatorsFromDescription 42.1% 311084/738183 []
+.creatorsFromDescription[] 100% 445129/445129 ["Elsebeth Egholm","Hans E. Laux","Susan Shreve","Walt Disney","instruktion Annelise Reenberg","Johan Segerberg, bas/kontrabas","Kim Larsen & Bellami (Hen
+.creators[] 100% 847025/847025 []
+.creators[].display 100% 847025/847025 ["Jørgen Stormgaard","Christina Pontoppidan","Agnes Henningsen","Marian Friborg","Marie Beatrix Schmidt","John Steinbeck","Sigurd Toftdahl Terkelsen","Sam Raimi"
+.creators[].nameSort 100% 847025/847025 ["stormgård jørgen","andersson thomas","zeuner lilli","guldager katrine marie","bols jeppesen inger","persson leif g w","israelsson stenberg susanne f 1974","la
+.creators[].roles 74.1% 627843/847025 []
+.creators[].roles[] 100% 659870/659870 []
+.creators[].roles[].function 100% 659870/659870 []
+.creators[].roles[].function.plural 100% 659870/659870 ["forfattere","forfattere","forfattere","forfattere","forfattere","anmeldere","instruktører","forfattere","forfattere","forfattere"]
+.creators[].roles[].function.singular 100% 659870/659870 ["forfatter","forfatter","forfatter","forfatter","anmelder","anmelder","forfatter","forfatter","forfatter","forfatter"]
+.creators[].roles[].functionCode 100% 659870/659870 ["aut","aut","aut","rev","aut","rev","aut","aut","led","rev"]
+.dateFirstEdition 23% 170144/738183 []
+.dateFirstEdition.display 100% 170144/170144 ["2000","2004","1991","2008","2020","1985","2018","2015","2001","2003"]
+.dateFirstEdition.endYear 0% 0/170144 []
+.dateFirstEdition.frequency 0% 0/170144 []
+.dateFirstEdition.year 100% 170144/170144 [2000,1774,2005,1983,2003,2012,2020,2005,1977,2003]
+.edition 99% 731183/738183 []
+.edition.contributors 1.1% 8197/731183 []
+.edition.contributors[] 100% 10469/10469 ["med Tegninger af Knud Larsen","af Jens Axelsen","Steinar Kvale, Svend Brinkmann","af Jens Axelsen","grafer: art/Grafik","af Egon Bork","ved Claus Angelo og H
+.edition.edition 99% 724162/731183 ["","","","","1. udgave","1. udgave","5. edition","","",""]
+.edition.note 0.5% 4183/731183 ["I materialet: 4. udgave","I materialet: 2. udgave","I materialet: 3.","I materialet: 3. udgave","I materialet: 4. i.e. ny udgave 1997","I materialet: 2. L&R udgave","I
+.edition.publicationYear 99.9% 731136/731183 []
+.edition.publicationYear.display 100% 731136/731136 ["Årstal ukendt","2021","2009","2020","2009","1990","2000","1996","2006","1995"]
+.edition.publicationYear.endYear 0.6% 4802/731136 [2022,2003,2003,1994,2012,2003,2000,2020,2014,2020]
+.edition.publicationYear.frequency 2.2% 16115/731136 ["Uregelmæssig","Ugentlig","Andet","Månedlig","Uregelmæssig","Hvert 2. år","Årlig","Uregelmæssig","Andet","Uregelmæssig"]
+.edition.publicationYear.year 99% 724017/731136 [2019,2018,2022,1982,1950,2016,2011,2005,2001,1990]
+.edition.summary 100% 731183/731183 ["Årstal ukendt","1. udgave, 2007","1. udgave, 2011","2011","1. udgave, 1991","1. udgave, 2015","2014","2006","2. udgave, 2004","2004"]
+.fictionNonfiction 100% 738183/738183 []
+.fictionNonfiction.code 100% 738183/738183 ["NONFICTION","NONFICTION","NONFICTION","FICTION","FICTION","FICTION","NOT_SPECIFIED","FICTION","NOT_SPECIFIED","NOT_SPECIFIED"]
+.fictionNonfiction.display 100% 738183/738183 ["nonfiktion","faglitteratur","skønlitteratur","fiktion","vides ikke","vides ikke","vides ikke","vides ikke","nonfiktion","skønlitteratur"]
+.genreAndForm 61.3% 453148/738183 []
+.genreAndForm[] 100% 644997/644997 ["litteraturanalyser","roman","nordiske gudesagn","samfundssatire","erindringer","roman","rock","roman","roman","sagn"]
+.hostPublication 11.7% 86452/738183 []
+.hostPublication.creator 0% 4/86452 ["Mads Krogh og Birgitte Stougaard Pedersen (red.)"]
+.hostPublication.edition 0% 0/86452 []
+.hostPublication.isbn 0% 0/86452 []
+.hostPublication.issn 92.3% 79849/86452 ["0109-1182","0904-6054","0106-4142","0109-1182","0904-6054","0904-6054","0905-7757","0106-5998","0029-6848","0109-1182"]
+.hostPublication.issue 99.9% 86424/86452 ["2022-05-28","2016-12-06","Årg. 74, nr. 2 (1992)","2003-08-06","Årg. 50, nr. 2 (1998)","2005-09-17","1993-09-12","1993-01-12","Årg. 68, nr. 23 (1965)","1990-1
+.hostPublication.notes 0% 0/86452 []
+.hostPublication.pages 0% 40/86452 ["S. 3-15 : ill."]
+.hostPublication.publisher 0% 0/86452 []
+.hostPublication.series 0% 0/86452 []
+.hostPublication.summary 100% 86452/86452 ["Jyllands-posten, 2022-05-28","Jyllands-posten, 2002-08-19","Klassisk, 2022, nr. 67","Information, 2014-01-17","Litteratursiden.dk [online], 2021-03-25","Pol
+.hostPublication.title 100% 86452/86452 ["Jyllands-posten","Jyllands-posten","Jyllands-posten","Jyllands-posten","Dansk audiologopædi","Fortid og nutid","Ugeskrift for læger","Det fri aktuelt","Weeken
+.hostPublication.year 99.9% 86427/86452 []
+.hostPublication.year.display 100% 86427/86427 ["2022","2009","2004","1995","1992","2002","2009","2021","2002","2022"]
+.hostPublication.year.endYear 0% 0/86427 []
+.hostPublication.year.frequency 0% 0/86427 []
+.hostPublication.year.year 99.9% 86396/86427 [2022,2012,2017,2018,2005,2008,2012,2014,2019,2003]
+.identifiers 75% 554289/738183 []
+.identifiers[] 100% 656325/656325 []
+.identifiers[].type 100% 656325/656325 ["ISSN","ISBN","ISBN","ISBN","ISBN","PUBLIZON","ISBN","ISBN","ISBN","ISBN"]
+.identifiers[].value 100% 656325/656325 ["0107-1807","9788797236741","9788702269529","9788741256283","9788711397978","9788762808348","0745655637","9788711996294","87-7289-483-0","87-88429-12-1"]
+.languages 100% 738183/738183 []
+.languages.abstract 0.5% 4171/738183 []
+.languages.abstract[] 100% 5309/5309 []
+.languages.abstract[].display 100% 5309/5309 ["engelsk","engelsk","engelsk","norsk","norsk","engelsk","engelsk","engelsk","engelsk","engelsk"]
+.languages.abstract[].isoCode 100% 5309/5309 ["eng","eng","nor","eng","ger","nor","fin","eng","dan","swe"]
+.languages.main 98% 724021/738183 []
+.languages.main[] 100% 747228/747228 []
+.languages.main[].display 100% 747228/747228 ["sproget kan ikke bestemmes","dansk","dansk","dansk","dansk","dansk","dansk","dansk","dansk","engelsk"]
+.languages.main[].isoCode 100% 747228/747228 ["und","dan","dan","dan","dan","dan","dan","dan","dan","dan"]
+.languages.notes 3.9% 29220/738183 []
+.languages.notes[] 100% 50570/50570 ["Tekst på dansk","Undertekster på spansk, fransk, dansk, nederlandsk, finsk, tysk, italiensk, norsk, portugisisk, svensk, kinesisk, indonesisk, malajisk og thai","
+.languages.original 24.7% 182478/738183 []
+.languages.original[] 100% 183510/183510 []
+.languages.original[].display 100% 183510/183510 ["tysk","engelsk","engelsk","svensk","engelsk","engelsk","engelsk","engelsk","engelsk","engelsk"]
+.languages.original[].isoCode 100% 183510/183510 ["ger","swe","eng","eng","eng","eng","dan","ger","nor","eng"]
+.languages.parallel 0.5% 4098/738183 []
+.languages.parallel[] 100% 12350/12350 []
+.languages.parallel[].display 100% 12350/12350 ["dansk","engelsk","fransk","russisk","arabisk","dansk","dansk","dansk","dansk","tysk"]
+.languages.parallel[].isoCode 100% 12350/12350 ["dan","dan","spa","ger","dan","eng","jpn","dan","eng","ice"]
+.languages.spoken 0.9% 7109/738183 []
+.languages.spoken[] 100% 23729/23729 []
+.languages.spoken[].display 100% 23729/23729 ["finsk","norsk","tysk","fransk","dansk","fransk","finsk","tjekkisk","dansk","norsk"]
+.languages.spoken[].isoCode 100% 23729/23729 ["fin","ger","dan","spa","dan","fre","spa","spa","spa","pol"]
+.languages.subtitles 2.2% 16971/738183 []
+.languages.subtitles[] 100% 103746/103746 []
+.languages.subtitles[].display 100% 103746/103746 ["dansk","svensk","norsk","norsk","dansk","svensk","finsk","portugisisk","engelsk","græsk"]
+.languages.subtitles[].isoCode 100% 103746/103746 ["dan","swe","nor","spa","fin","dan","bul","nor","por","spa"]
+.latestPrinting 28.6% 211848/738183 []
+.latestPrinting.printing 100% 211848/211848 ["3. oplag","1. oplag","1. oplag","2. oplag","1. oplag","[Nyt oplag]","1. oplag","1. oplag","1. oplag","3. oplag"]
+.latestPrinting.publicationYear 100% 211848/211848 []
+.latestPrinting.publicationYear.display 100% 211848/211848 ["2000","2013","2015","2006","2015","2010","2000","2003","2012","2022"]
+.latestPrinting.publicationYear.endYear 0% 0/211848 []
+.latestPrinting.publicationYear.frequency 0% 0/211848 []
+.latestPrinting.publicationYear.year 98.4% 208613/211848 [2000,2018,1995,2020,1996,2021,1983,1983,2015,2020]
+.latestPrinting.publisher 0.9% 1977/211848 ["Munksgaard","Carlsen","Museum Vestsjælland","Carlsen","Carlsen","Munksgaard","Gilalai","Gyldendal Business","Hans Reitzel","CPH Press"]
+.latestPrinting.summary 100% 211848/211848 ["3. oplag, 2000","3. oplag, 2020","4. oplag, 2010","2. oplag, 2011","6. oplag, 2023","1. oplag, 2019","1. oplag, ","1. oplag, 2021","1. oplag, 2020","2. opl
+.manifestationParts 2.3% 17639/738183 []
+.manifestationParts.heading 91.4% 16132/17639 ["Indhold:","Indhold:","Indhold:","Indhold:","Indhold:","Indhold:","Indhold:","Indhold:","Indhold:","Indhold:"]
+.manifestationParts.parts 99.1% 17495/17639 []
+.manifestationParts.parts[] 100% 578566/578566 []
+.manifestationParts.parts[].classifications 0% 0/578566 []
+.manifestationParts.parts[].contributorsFromDescription 0% 34/578566 []
+.manifestationParts.parts[].contributorsFromDescription[] 100% 34/34 ["Arr. Phillip Faber","Arr. Michael Bojesen"]
+.manifestationParts.parts[].creators 16.2% 94037/578566 []
+.manifestationParts.parts[].creatorsFromDescription 6.7% 39215/578566 []
+.manifestationParts.parts[].creatorsFromDescription[] 100% 50867/50867 ["Jeanette Højby, vokal","Michail Rudy, klaver","Martin Gabriel, obo","musik: B. Andersson, B. Ulvæus i.e. B. Ulvaeus","orkester"
+.manifestationParts.parts[].creators[] 100% 94071/94071 []
+.manifestationParts.parts[].creators[].display 100% 94071/94071 ["Franz Schubert","Maurice Jarre","A. P. Berggreen","Otto Teich","Per Warming","Thomas Kjellerup","Culpeper's Orchard","The Old Man & th
+.manifestationParts.parts[].creators[].nameSort 100% 94071/94071 ["schubert franz","deep purple","buchanan brothers","ryder mitch","weyse c e f","ring oluf","bonde lars","nielsen carl f 1865","varmark
+.manifestationParts.parts[].creators[].roles 0% 0/94071 []
+.manifestationParts.parts[].playingTime 3.2% 18578/578566 ["2:04 min","3:36 min","1:45 min","4:00 min","3:18 min","4:07 min","1:20 min","3:45 min","1:49 min","3:35 min"]
+.manifestationParts.parts[].subjects 0% 0/578566 []
+.manifestationParts.parts[].title 100% 578566/578566 ["Den første gang","Mother","Just because","Winter wonderland","Smile away","Dinamite Jim (English Version)","KHJ Batman Promotion","Kommunardernes
+.manifestationParts.type 100% 17639/17639 ["MUSIC_TRACKS","MUSIC_TRACKS","MUSIC_TRACKS","MUSIC_TRACKS","MUSIC_TRACKS","MUSIC_TRACKS","MUSIC_TRACKS","MUSIC_TRACKS","MUSIC_TRACKS","MUSIC_TRACKS"]
+.materialTypes 100% 738183/738183 []
+.materialTypes[] 100% 767382/767382 []
+.materialTypes[].materialTypeGeneral 100% 767382/767382 []
+.materialTypes[].materialTypeGeneral.code 100% 767382/767382 ["NEWSPAPER_JOURNALS","BOOKS","BOOKS","BOOKS","BOOKS","BOOKS","BOOKS","BOOKS","ARTICLES","BOOKS"]
+.materialTypes[].materialTypeGeneral.display 100% 767382/767382 ["aviser og tidsskrifter","bøger","bøger","artikler","bøger","lydbøger","aviser og tidsskrifter","bøger","bøger","lydbøger"]
+.materialTypes[].materialTypeSpecific 100% 767382/767382 []
+.materialTypes[].materialTypeSpecific.code 100% 767382/767382 ["JOURNAL","BOOK","BOOK","EBOOK","BOOK","REVIEW","BOOK","AUDIO_BOOK_ONLINE","BOOK","BOOK"]
+.materialTypes[].materialTypeSpecific.display 100% 767382/767382 ["tidsskrift","anmeldelse","bog","billedbog (online)","film (dvd)","bog","lydbog (online)","bog","bog","bog"]
+.notes 50.7% 374457/738183 []
+.notes[] 100% 442973/442973 []
+.notes[].display 100% 442973/442973 []
+.notes[].display[] 100% 626429/626429 ["Uregelmæssig","Gengivelse af bogen","Originaludgave: 1993","Efter Det Kongelige Biblioteks eksemplar: 57,-87-8°","Gengivelse af bogen","DSD 32161","Originalfilm
+.notes[].heading 0% 0/442973 []
+.notes[].type 100% 442973/442973 ["FREQUENCY","ORIGINAL_VERSION","ORIGINAL_VERSION","REFERENCES","ORIGINAL_VERSION","REFERENCES","ORIGINAL_VERSION","NOT_SPECIFIED","REFERENCES","ORIGINAL_VERSION"]
+.ownerWork 100% 738183/738183 []
+.ownerWork.workId 100% 738183/738183 ["work-of:870970-basis:02871963","work-of:870970-basis:28682417","work-of:870970-basis:01770578","work-of:737600-katalog:47922356","work-of:870971-anmeld:82898638"
+.physicalDescriptions 85.8% 634070/738183 []
+.physicalDescriptions[] 100% 634070/634070 []
+.physicalDescriptions[].accompanyingMaterial 2.7% 17497/634070 ["1 bog","1 foldet kort","1 kommentarhæfte","1 minigrammatik","1 bilag","1 vejledning","1 sangbog","1 bonus-dvd","1 mini grammar book","1
+.physicalDescriptions[].additionalDescription 40.4% 256662/634070 ["ill.","ill.","ill","ill. i farver","ill.","ill.","ill.","ill. i farver","alle illustrerede","ill. i farver"]
+.physicalDescriptions[].extent 84.6% 536782/634070 ["176 sider","176 sider","241 sider","48 sider","330 sider","98 sider","279 s.","144 sider","83 s.","415 sider"]
+.physicalDescriptions[].numberOfPages 83.6% 530411/634070 [176,134,6,16,47,291,310,1,94,12]
+.physicalDescriptions[].numberOfUnits 11.5% 72987/634070 ["1 cd","1 cd i 1 mappe","1 disc","1 kassette (ca 33 min.)","1 blu-ray disc (blu-ray) (101 min.)","2 cd'er","1 kassette","1 dvd-video","1 dvd-v
+.physicalDescriptions[].playingTime 9.4% 60154/634070 ["7 t., 36 min.","5 t., 58 min.","ca. 95 min.","7 t., 39 min.","84 min.","7 t., 30 min.","4 t., 19 min.","13 t., 31 min.","3 t., 1 min.","ca. 4 t.
+.physicalDescriptions[].requirements 0.4% 2648/634070 ["Sony playstation 4; understøtter vibrationsfunktion; understøtter remote play","Nintendo Switch; understøtter pro controller","Sony playstation 
+.physicalDescriptions[].size 14.4% 91553/634070 ["414460000 bytes","28 cm","502059455 bytes","30 cm","87303580 bytes","28 cm","16 cm","21 cm","19 cm","29 cm"]
+.physicalDescriptions[].summary 100% 634070/634070 ["176 sider: ill.","97 sider: ill. i farver","47 sider: ill. i farver","249 sider","268 sider ; 22 cm","Sektion 4, s. 6","256 s.","419 sider","343 s.
+.physicalDescriptions[].technicalInformation 3.2% 20598/634070 ["mp3","mp3","Antal tegn: 205994","blu-ray playstation 5","mp3","Antal tegn: 726996","blu-ray playstation 5","blu-ray","mp3","blu-ray"]
+.physicalDescriptions[].textVsIllustrations 0% 0/634070 []
+.pid 100% 738183/738183 ["800010-katalog:99122363795405763","820120-katalog:990005898400305765","830380-katalog:28118708","800010-katalog:99122004826405763","726500-katalog:05831083","870970-basis:273
+.publisher 81.5% 601941/738183 []
+.publisher[] 100% 627336/627336 ["Lindhardt og Ringhof","Danmarks Blindebibliotek","Alinea","Collins","Turbulenz","Stok-Art","Cape","Gyldendal","Reitzel","Warner Home Video Denmark"]
+.recordCreationDate 100% 738183/738183 ["20191025","20161030","20080604","20100310","20131203","20150714","20130311","20061201","20150706","20160906"]
+.relatedPublications 5.9% 43878/738183 []
+.relatedPublications[] 100% 60360/60360 []
+.relatedPublications[].faust 0% 6/60360 ["28447477"]
+.relatedPublications[].heading 100% 60360/60360 ["Fortsættelse af:","Hertil knytter sig deres","Fortsættelse af:","Til nogle numre hørere diskette eller cd-audio","Baseret på figurer af","Krimiserie m
+.relatedPublications[].isbn 1.4% 859/60360 ["9781335018250","9780060959470","9781635575552","9780062676436","9780141331874","9780807011805","9781250272706","9781635575576","9780316310420","97802419882
+.relatedPublications[].issn 23.8% 14404/60360 ["0908-1690","1903-9735","0107-8151","0105-4724","0908-0678","1397-4823","1395-5454","2246-2449","2246-2589","0904-2903"]
+.relatedPublications[].title 49.1% 29658/60360 []
+.relatedPublications[].title[] 100% 29658/29658 ["Meddelelser fra Historielærerforeningen","Arthur Spiderwicks felthåndbog til den fantastiske verden der omgiver os","Alfer - en fantastisk håndbog","A
+.relatedPublications[].url 0.3% 222/60360 ["http://www.efterskolen.com.","http://books.google.com/books?id=pt0TAQAAMAAJ","http://books.google.com/books?id=utUVAAAAYAAJ"]
+.relatedPublications[].urlText 0% 17/60360 ["undervisningsmateriale"]
+.relations 100% 738183/738183 []
+.relations.continuedIn 0% 60/738183 []
+.relations.continuedIn[] 100% 153/153 []
+.relations.continuedIn[].pid 100% 153/153 ["870971-tsart:72959531","870971-avis:71323978","870971-tsart:70331195","870971-avis:33194226","870971-avis:88973410","870971-avis:88980360"]
+.relations.continues 0% 131/738183 []
+.relations.continues[] 100% 153/153 []
+.relations.continues[].pid 100% 153/153 ["870971-tsart:70849674","870971-avis:33014287","870971-tsart:85343289","870971-tsart:85843362","870971-tsart:73362237"]
+.relations.discussedIn 0% 531/738183 []
+.relations.discussedIn[] 100% 790/790 []
+.relations.discussedIn[].pid 100% 790/790 ["870971-tsart:70175665","870971-avis:35710981","870971-tsart:71960005","870971-avis:80977956","870971-avis:134308249","870971-avis:89342414","870971-avis:839
+.relations.discusses 0.1% 790/738183 []
+.relations.discusses[] 100% 791/791 []
+.relations.discusses[].pid 100% 791/791 ["870971-avis:33759789","870971-anmeld:80549423","870971-anmeld:33614217","870971-anmeld:86270927","870971-anmeld:81784604","870971-anmeld:35210199","870971-anm
+.relations.hasAdaptation 4.4% 32861/738183 []
+.relations.hasAdaptation[] 100% 196537/196537 []
+.relations.hasAdaptation[].pid 100% 196537/196537 ["870970-basis:09275576","700400-katalog:134285842","870970-basis:46435583","870970-basis:50916545","800010-katalog:99124010969605763","773000-katalog
+.relations.hasAnalysis 1.3% 9647/738183 []
+.relations.hasAnalysis[] 100% 9744/9744 []
+.relations.hasAnalysis[].pid 100% 9744/9744 ["150005-analyse:673","150005-analyse:404","150005-analyse:348","150005-analyse:501","150005-analyse:96314","150005-analyse:96943","150005-analyse:631","150
+.relations.hasCreatorDescription 23.6% 174549/738183 []
+.relations.hasCreatorDescription[] 100% 342673/342673 []
+.relations.hasCreatorDescription[].pid 100% 342673/342673 ["861160-katalog:86202840","150005-portraet:5896","861160-katalog:86178362","870971-forfweb:38667823","150005-portraet:19480","861160-katalog:
+.relations.hasDescriptionFromPublisher 0% 0/738183 []
+.relations.hasManuscript 0% 16/738183 []
+.relations.hasManuscript[] 100% 94/94 []
+.relations.hasManuscript[].pid 100% 94/94 ["876040-katalog:06991793","872600-katalog:06991793","800010-katalog:99122755085905763","820030-katalog:1403805","876040-katalog:06991793"]
+.relations.hasReusedReview 3.6% 26954/738183 []
+.relations.hasReusedReview[] 100% 27829/27829 []
+.relations.hasReusedReview[].pid 100% 27829/27829 ["870976-anmeld:129415991","870976-anmeld:129342625","870976-anmeld:128955518","870976-anmeld:127859833","870976-anmeld:128620176","870976-anmeld:1279
+.relations.hasReview 48.8% 360757/738183 []
+.relations.hasReview[] 100% 1027861/1027861 []
+.relations.hasReview[].pid 100% 1027861/1027861 ["870971-anmeld:35801049","870971-anmeld:89618592","870976-anmeld:128507183","150005-anmeld:95453","870971-anmeld:88921054","870971-anmeld:24913341","15
+.relations.hasSoundtrack 0.6% 4657/738183 []
+.relations.hasSoundtrack[] 100% 17395/17395 []
+.relations.hasSoundtrack[].pid 100% 17395/17395 ["870970-basis:44864835","800010-katalog:99122185013805763","731600-katalog:22636499","767100-katalog:22636499","745000-katalog:22564455","870970-basis:
+.relations.hasTrack 0% 0/738183 []
+.relations.isAdaptationOf 0.6% 4472/738183 []
+.relations.isAdaptationOf[] 100% 193475/193475 []
+.relations.isAdaptationOf[].pid 100% 193475/193475 ["800010-katalog:99122099355105763","748200-katalog:28822030","870970-basis:27087957","800010-katalog:99122352181705763__1","746100-katalog:44646218"
+.relations.isAnalysisOf 0% 236/738183 []
+.relations.isAnalysisOf[] 100% 9725/9725 []
+.relations.isAnalysisOf[].pid 100% 9725/9725 ["730600-katalog:23019175","765700-katalog:29848963","800010-katalog:99122139402105763","870970-basis:26754232","911116-katalog:50639924","761500-katalog:5
+.relations.isDescriptionFromPublisherOf 0% 0/738183 []
+.relations.isManuscriptOf 0% 24/738183 []
+.relations.isManuscriptOf[] 100% 94/94 []
+.relations.isManuscriptOf[].pid 100% 94/94 ["911116-katalog:125912605","870970-basis:23220822","786000-katalog:26640539"]
+.relations.isPartOfAlbum 0% 0/738183 []
+.relations.isPartOfManifestation 11.4% 84572/738183 []
+.relations.isPartOfManifestation[] 100% 1904663/1904663 []
+.relations.isPartOfManifestation[].pid 100% 1904663/1904663 ["786000-katalog:03243796","715900-katalog:03243796","820050-katalog:9920683335605762","721000-katalog:03243796","870970-basis:49423292","73
+.relations.isReusedReviewOf 1.8% 13604/738183 []
+.relations.isReusedReviewOf[] 100% 27615/27615 []
+.relations.isReusedReviewOf[].pid 100% 27615/27615 ["870970-basis:137177862","870970-basis:62027878","870970-basis:53126618","911116-katalog:29809151","870970-basis:27849180","870970-basis:29821356","
+.relations.isReviewOf 16.7% 123426/738183 []
+.relations.isReviewOf[] 100% 1006950/1006950 []
+.relations.isReviewOf[].pid 100% 1006950/1006950 ["800010-katalog:99125106464305763","800010-katalog:99124493218605763","871960-katalog:000005194","830060-katalog:991000467729703861","800010-katalog:9
+.relations.isSoundtrackOfGame 0% 4/738183 []
+.relations.isSoundtrackOfGame[] 100% 9/9 []
+.relations.isSoundtrackOfGame[].pid 100% 9/9 ["716700-katalog:51993128"]
+.relations.isSoundtrackOfMovie 0.1% 1205/738183 []
+.relations.isSoundtrackOfMovie[] 100% 17567/17567 []
+.relations.isSoundtrackOfMovie[].pid 100% 17567/17567 ["850290-katalog:000049001","800010-katalog:99122695150705763","870970-basis:27119158","800010-katalog:99122901543805763","850290-katalog:00006202
+.review 99% 731162/738183 []
+.review.rating 2.8% 21062/731162 ["4/6","5/6","6/6","4/6","5/6","5/6","3/6","4/6","3/6","3/6"]
+.review.reviewByLibrarians 5.4% 39921/731162 []
+.review.reviewByLibrarians[] 100% 118543/118543 []
+.review.reviewByLibrarians[].content 100% 118543/118543 ["Sjov og actionfyldt bog om Max, der til sidst kan køre hurtigere på sin gamle BMX end Ea kan på sin nye BMX. Letlæst bog for 6-9-årige","\\Du 
+.review.reviewByLibrarians[].contentSubstitute 100% 118543/118543 ["Sjov og actionfyldt bog om Max, der til sidst kan køre hurtigere på sin gamle BMX end Ea kan på sin nye BMX. Letlæst bog for 6-9-åri
+.review.reviewByLibrarians[].heading 100% 118543/118543 ["Kort om bogen","Andre bøger med samme emne eller genre","Beskrivelse","Beskrivelse","Andre bøger med samme emne eller genre","Beskrivelse","Sa
+.review.reviewByLibrarians[].manifestations 17.2% 20408/118543 []
+.review.reviewByLibrarians[].manifestations[] 99.7% 36547/36633 []
+.review.reviewByLibrarians[].manifestations[].pid 100% 36547/36547 ["870970-basis:136675052","870970-basis:52966914","870970-basis:05466547","870970-basis:53016952","870970-basis:21045756","870970-bas
+.review.reviewByLibrarians[].type 100% 118543/118543 ["ABSTRACT","CONCLUSION","SIMILAR_MATERIALS","DESCRIPTION","EVALUATION","DESCRIPTION","ABSTRACT","SIMILAR_MATERIALS","DESCRIPTION","ABSTRACT"]
+.series 30.1% 222214/738183 []
+.series[] 100% 229275/229275 []
+.series[].alternativeTitles 19% 43739/229275 []
+.series[].alternativeTitles[] 100% 57117/57117 ["Ælle bælle-bøgerne","Ravn-serien","Munch & Krüger-serien","Louise Rick-serien","Krøniker","Digi læs","De 7 søstre-serien","Twilight-serien","Magnus Cha
+.series[].description 21% 48373/229275 ["I de folkekære skrøner fortæller Jørn Riel de barske, sørgelige, fornøjelige og ikke mindst sandfærdige historier om sære personer fra Nordøstgrønland, både in
+.series[].isPopular 100% 229275/229275 [true,true,true,true,false,true,false,true,false,false]
+.series[].mainLanguages 100% 229275/229275 []
+.series[].mainLanguages[] 100% 229275/229275 ["dansk","dansk","dansk","dansk","dansk","engelsk","dansk","dansk","dansk","dansk"]
+.series[].members 100% 229275/229275 []
+.series[].members[] 100% 6402325/6402325 []
+.series[].members[].numberInSeries 46.3% 2966865/6402325 ["1","2. del","3. del","04:10","99:19","03:21","05:12","06:29","studie nr. 18","6"]
+.series[].members[].readThisFirst 2.1% 137454/6402325 [true,true,true,true,true,true,true,true,true,true]
+.series[].members[].readThisWhenever 8.8% 565111/6402325 [true,true,true,true,true,true,true,true,true,true]
+.series[].members[].work 100% 6402325/6402325 []
+.series[].members[].work.workId 100% 6402325/6402325 ["work-of:874310-katalog:DBB0022819","work-of:870970-basis:23770016","work-of:870970-basis:22486217","work-of:870970-basis:01437151","work-of:87097
+.series[].parallelTitles 0% 0/229275 []
+.series[].readThisFirst 14.6% 33675/229275 [true,true,true,true,true,true,true,true,true,true]
+.series[].readThisWhenever 10.9% 25008/229275 [true,true,true,true,true,true,true,true,true,true]
+.series[].title 100% 229275/229275 ["Kærlighedens Aarstider","Ælle bælle bog. Serie 32","Skrøner fra Nordøstgrønland","Statskundskabens klassikere","Reformationsserien","Krimiserien med Louise Rick","
+.series[].workTypes 100% 229275/229275 []
+.series[].workTypes[] 100% 229435/229435 ["LITERATURE","LITERATURE","MOVIE","LITERATURE","LITERATURE","LITERATURE","LITERATURE","LITERATURE","LITERATURE","LITERATURE"]
+.shelfmark 40.3% 298001/738183 []
+.shelfmark.postfix 100% 298001/298001 ["Noter","God","Dylan","Tsunamien","Presley","65","Scocozza","Antboy","Sørensen","Ferguson"]
+.shelfmark.shelfmark 100% 298001/298001 ["37.14905","99.4 Blumenberg, Hans","83","78.799","98.7","88.2","74.901","39.12","83","91.1"]
+.source 100% 738183/738183 []
+.source[] 100% 738323/738323 ["Bibliotekskatalog","Anmeldelser","Bibliotekskatalog","Bibliotekskatalog","Bibliotekskatalog","Bibliotekskatalog","Anmeldelser","Bibliotekskatalog","Bibliotekskatalog","B
+.subjects 100% 738183/738183 []
+.subjects.all 64% 472767/738183 []
+.subjects.all[] 100% 2698413/2698413 []
+.subjects.all[].display 100% 2698413/2698413 ["forfattere","Ledelsesteori","kærlighed","kampsport","Danmarkshistorie","kommunikation","kærlighed","carbon footprint","forfattere","fauna"]
+.subjects.all[].language 65.1% 1757071/2698413 []
+.subjects.all[].language.display 100% 1757071/1757071 ["dansk","dansk","dansk","dansk","dansk","dansk","dansk","dansk","dansk","dansk"]
+.subjects.all[].language.isoCode 100% 1757071/1757071 ["dan","dan","dan","dan","dan","dan","dan","dan","dan","dan"]
+.subjects.all[].local 82.7% 2233315/2698413 [false,false,false,false,false,false,false,false,false,false]
+.subjects.all[].type 100% 2698413/2698413 ["TOPIC","TOPIC","TOPIC","TIME_PERIOD","TOPIC","TOPIC","TOPIC","TOPIC","TOPIC","TOPIC"]
+.subjects.dbcVerified 57.1% 422002/738183 []
+.subjects.dbcVerified[] 100% 2055366/2055366 []
+.subjects.dbcVerified[].display 100% 2055366/2055366 ["forfattere","Afrika","vokal","2020'erne","sygdom","pædagogik","familien","Malta","sport","klimaændringer"]
+.subjects.dbcVerified[].language 85.4% 1757071/2055366 []
+.subjects.dbcVerified[].language.display 100% 1757071/1757071 ["dansk","dansk","dansk","dansk","dansk","dansk","dansk","dansk","dansk","dansk"]
+.subjects.dbcVerified[].language.isoCode 100% 1757071/1757071 ["dan","dan","dan","dan","dan","dan","dan","dan","dan","dan"]
+.subjects.dbcVerified[].local 85.4% 1757071/2055366 [false,false,false,false,true,true,true,true,true,true]
+.subjects.dbcVerified[].type 100% 2055366/2055366 ["TOPIC","TOPIC","TOPIC","TOPIC","TOPIC","TOPIC","TOPIC","TOPIC","MUSIC_COUNTRY_OF_ORIGIN","TOPIC"]
+.tableOfContents 15.7% 116337/738183 []
+.tableOfContents.content 82.4% 95881/116337 ["Social læring i pædagoguddannelsen ; Portfolio : et studieredskab ; Studiegrupper ; Metoder til faglig læsning ; Skriftlighed mellem profession og akademi
+.tableOfContents.heading 100% 116337/116337 ["Indhold","Indhold","Indhold","Indhold","Delindhold","Delindhold","Indhold","Indhold","Indhold","Indhold"]
+.tableOfContents.listOfContent 18.5% 21560/116337 []
+.tableOfContents.listOfContent[] 100% 770885/770885 []
+.tableOfContents.listOfContent[].content 99.2% 765098/770885 ["Om Tuor og hans ankomst til Gondolin / Den første alder (","Derfor er vi i Vietnam","Den standhaftige Tinsoldat","Som tiden gik","Sommer"
+.tableOfContents.listOfContent[].heading 0.7% 5787/770885 ["Poetik","Det gamle Vestjylland","Drive-in digte","Historien om det løjerlige, lange bugtedyr i pytsøen","Retroperspektivistisk","Har du et y
+.tableOfContents.listOfContent[].listOfContent 0.6% 4904/770885 []
+.tableOfContents.listOfContent[].listOfContent[] 100% 52632/52632 []
+.tableOfContents.listOfContent[].listOfContent[].content 100% 52632/52632 ["Der er ingenting, der har værdi i sig selv","Jeg er ikke inspireret","Disse sonetter skramler derudad","Jeg har i mange år j
+.tableOfContents.listOfContent[].listOfContent[].heading 0% 0/52632 []
+.tableOfContents.listOfContent[].listOfContent[].listOfContent 0% 0/52632 []
+.titles 100% 738183/738183 []
+.titles.alternative 14.8% 109306/738183 []
+.titles.alternative[] 100% 145017/145017 ["Foreningen af Gymnasie- og HF-lærere i Historie. Noter","Introducing child psychiatry","Popmusikerens vise","Kong Richard den Tredje","Gastro (København)","T
+.titles.full 100% 738183/738183 []
+.titles.full[] 100% 740263/740263 ["Noter om historie og undervisning","Ridder Hialmar","Sov sødt","Lille Virgil","Med familien i Barcelona : attraktioner, afslapning, aktiviteter, spisesteder, shoppi
+.titles.identifyingAddition 6.3% 46642/738183 ["Magnumbøger","Ved Johnny Kondrup","Guitar tablature edition","mp3","Dansklærerforeningen, ved Lars Nielsen","Ved Jens Jacob Tychsen","Ved Hanne Leth","\
+.titles.main 100% 738183/738183 []
+.titles.main[] 100% 740260/740260 ["Noter om historie og undervisning","Kejserens nye klæder","Mio, min Mio","Frigørelsens hylen","Kongekroner og rubinens hemmelighed","The handmaid's tale","Ind i min
+.titles.original 18.5% 137069/738183 []
+.titles.original[] 100% 140580/140580 ["Die Leiden des jungen Werthers","Until the end of time","10 Jahre Freiheit","Cannery Row","Crisis of Islam","Harmur englanna","The wrath of Mulgarath","Q & A (e
+.titles.parallel 0.4% 2999/738183 []
+.titles.parallel[] 100% 3277/3277 ["Thumbelina","Le chateau de ma mère","Danish-English-Tamil medical handbook & dictionary","Coraline","The three musketeers","Curse of the golden flower","Pirates of 
+.titles.standard 1.4% 10548/738183 ["Juristen (1982)","Poems. Selections.","Knuste bølger (Magnumbøger)","De fire årstider, opus 8:1-4 (Red Priest)","Den store mand","I form (Dansk udgave)","Paisajes 
+.titles.translated 0% 5/738183 []
+.titles.translated[] 100% 5/5 ["Fate fairy"]
+.titles.tvSeries 0.2% 1612/738183 []
+.titles.tvSeries.danishLaunchTitle 11.7% 189/1612 ["Mord uden grænser","Opgøret","En ny begyndelse","Mord uden grænser","Loulou fra Montmartre","Stum sidder guden","Havet giver, havet tager","Folk og 
+.titles.tvSeries.disc 37.4% 603/1612 []
+.titles.tvSeries.disc.display 100% 603/603 ["disc 2","disc 3","disc 2","disc 2","disc 4","disc 1","disc 2","disc 1","disc 4","disc 3"]
+.titles.tvSeries.disc.numbers 100% 603/603 []
+.titles.tvSeries.disc.numbers[] 100% 604/604 [2,1,3,2,3,1,2,3,1,3]
+.titles.tvSeries.episode 28.3% 457/1612 []
+.titles.tvSeries.episode.display 100% 457/457 ["episodes 5 & 6","6. del","episodes 5 & 6","afsnit 17-25","episodes 10","episode 19-26","afsnit 1-8","episodes 1 & 2","1","episode 9-10"]
+.titles.tvSeries.episode.numbers 100% 457/457 []
+.titles.tvSeries.episode.numbers[] 100% 1347/1347 [5,10,24,1,3,7,15,7,13,3]
+.titles.tvSeries.episodeTitles 3.8% 62/1612 []
+.titles.tvSeries.episodeTitles[] 100% 62/62 ["Skiftedag & Skyggetanten","Skiftedag & Skyggetanten"]
+.titles.tvSeries.season 55.3% 893/1612 []
+.titles.tvSeries.season.display 100% 893/893 ["sæson 2","sæson 5","sæson 7","sæson 1","sæson 5","sæson 1","sæson 1","sæson 2","sæson 1","sæson 1"]
+.titles.tvSeries.season.numbers 100% 893/893 []
+.titles.tvSeries.season.numbers[] 100% 898/898 [2,1,2,2,1,1,1,2,2,1]
+.titles.tvSeries.title 100% 1612/1612 ["Modus","Badehotellet","Matador","Moominvalley","Dödsmässa","Dicte","Beauty and the beast","Poldark","Wallander","Poldark"]
+.titles.tvSeries.volume 0.7% 12/1612 []
+.titles.tvSeries.volume.display 100% 12/12 ["volume 1"]
+.titles.tvSeries.volume.numbers 100% 12/12 []
+.titles.tvSeries.volume.numbers[] 100% 12/12 [1,2]
+.universes 3.2% 24130/738183 []
+.universes[] 100% 24130/24130 []
+.universes[].alternativeTitles 1.9% 478/24130 []
+.universes[].alternativeTitles[] 100% 652/652 ["Zombiejæger-universet","Zombiejægeruniverset","Troldelivuniverset","Zombiejæger-universet","Troldelivuniverset","Zombiejæger-universet","Zombiejæger-uni
+.universes[].description 97.3% 23488/24130 ["Toy story handler om drengen Anders' legetøj, heriblandt cowboydukken Woody og rumhelten Buzz Lightyear, og hvad de oplever, når han ikke er tilstede","Sci
+.universes[].series 97.8% 23609/24130 []
+.universes[].series[] 100% 266146/266146 []
+.universes[].series[].members 100% 266146/266146 []
+.universes[].series[].members[] 100% 1514169/1514169 []
+.universes[].series[].members[].work 100% 1514169/1514169 []
+.universes[].series[].members[].work.workId 100% 1514169/1514169 ["work-of:870970-basis:28521006","work-of:870970-basis:28752504","work-of:870970-basis:29728674","work-of:870970-basis:25834178","work-
+.universes[].series[].title 100% 266146/266146 ["Disney classic","Comics pocket","Spider-Man","The Avengers","Madicken","Harry Potter","LucasArts classic","Ariel - begyndelsen","Maria Wern","Harry Pot
+.universes[].title 100% 24130/24130 ["Toy story-universet","Zombie-jæger-universet","Warhammer-universet","Emil fra Lønneberg-universet","Rasmus Klump-universet","Anne Frank-universet","Peddersen og F
+.universes[].works 94.5% 22805/24130 []
+.universes[].works[] 100% 1370402/1370402 []
+.universes[].works[].workId 100% 1370402/1370402 ["work-of:870970-basis:135556882","work-of:870970-basis:47113016","work-of:870970-basis:22596128","work-of:870970-basis:26151481","work-of:870970-basis
+.volume 2.7% 20565/738183 ["Bind 1","Bind 5","Bind 1","Bind 3","Bind 2","Bind 2","Bind 2","Bind 4","Bind 70","Bind 1"]
+.workTypes 100% 738183/738183 []
+.workTypes[] 100% 740264/740264 ["PERIODICA","PERIODICA","LITERATURE","PERIODICA","LITERATURE","LITERATURE","REVIEW","REVIEW","REVIEW","LITERATURE"]
+.workYear 14.9% 110486/738183 []
+.workYear.display 100% 110486/110486 ["1774","1991","2013","1883","1988","2015","2002","2013","2023","1982"]
+.workYear.endYear 0% 0/110486 []
+.workYear.frequency 0% 0/110486 []
+.workYear.year 100% 110486/110486 [1774,1979,1814,2007,2016,1993,2003,2014,2009,2021]
