@@ -8,11 +8,11 @@ Her er nogle hurtige noter om JED-formatet
 
 ## Generelt indtryk
 
-JED-formatet er et stort fremskridt.  Data rigere end hvad man man får ud af openplatform<small>(simpel/direkte mapping fra DKABM til JSON-LD)</small>.  https://fbi-api.dbc.dk/ gør det let at udforske/eksperimentere med data.
+JED-formatet er et stort fremskridt. Data er rigere end hvad man man får ud af openplatform<small>(simpel/direkte mapping fra DKABM til JSON-LD)</small>.  https://fbi-api.dbc.dk/ gør det let at udforske/eksperimentere med data.
 
 Formatet ser ud til at være under udvikling, – med kun 3 måneders garanteret stabilitet fra deprecation notice til ting fjernes. Changelog for ændringer(https://fbi-api.dbc.dk/documentation#Changelog) er heldigvis let at finde.
 
-Jeg bemærker at der er små forskelle mellem `https://danbib.dk/jed/mapping` og `https://fbi-api.dbc.dk/schema` stemmer overens. Der er er små forskelle, eksempelvis `agencyId`, `gamePlatform` og `universes`.
+Jeg bemærker at der er små forskelle mellem `https://danbib.dk/jed/mapping` og `https://fbi-api.dbc.dk/schema` stemmer overens. Der er er små forskelle, såsom `agencyId`, `gamePlatform` og `universes`.
 
 Alt i alt er det et godt dataformat, som er let at gå til. 
 Tror at det er godt med et nyt format, som virker til at bygge på / mappe fra både MARC og DKABM, – og samtidigt er let at bruge.
@@ -20,12 +20,12 @@ Tror at det er godt med et nyt format, som virker til at bygge på / mappe fra b
 ## Små idéer/forslag til forbedringer
 
 - Måske burde `edition.edition` være `null` i stedet for tom streng, hvis der ikke er nogle data, – for at være konsistent med resten af formatet.
-- Det ville være rart hvis dokumentationen kunne læses, uden at man skal finde token (Docs/Voyager/Schema på fbi-api.dbc.dk). Da dette er det bedste sted at læse om JED-formatet.
+- Det ville være rart, hvis dokumentationen kunne læses, uden at man skal finde token (Docs/Voyager/Schema på fbi-api.dbc.dk). Da dette er det bedste sted at læse om JED-formatet.
 - Automatisk tjek af forskelle mellem `https://danbib.dk/jed/mapping` og `https://fbi-api.dbc.dk/schema`.
 - Det vil være rart med øget stabilitets-perioden eller en LTS-version (evt. for en delmængde af felterne), så man ikke skal tjekke for ændringer hvert kvartal. Gætter på at dette kommer automatisk, når Next går i luften, ifht. DDB-CMS typiske udviklingskadance.
 - Måske kan `creatorsFromDescription` bruges til at uddybe metadata i `contributors[].roles[]` Eksempelvis i filmatisering af Harry Potter (`870970-basis:24229157`), er `roles` under `contributors` tom for J.K. Rowling, Steve Kloves, og John Seale, men informationer om deres roller ligger under "creatorsFromDescription".
 - Måske kan `series[].members[].numberInSeries` bruges til at forbedre værkmatch. Eksempelvis er værkerne `work-of:870970-basis:27091423` og `work-of:870970-basis:28995938` er begge nummer 5 og ser umiddelbart ser begge ud til at være samme værk, – og lignende situation dukker op ved de øvrige værker i serien.
-- Curl-kommandoen fra https://fbi-api.dbc.dk/documentation virkede ikke med mit client-id. Jeg fik fejlen `{"error":"server_error","error_description":"Server error: missing client 'grants'"}`.  I stedet hentede jeg bare token som beskrevet på https://openplatform.dbc.dk/v3/.  Forskellen var om token blev hentet fra `https://login.bib.dk/oauth/token` eller `https://auth.dbc.dk/oauth/token`, så måske skal dette ændres i dokumentationen.
+- Curl-kommandoen fra https://fbi-api.dbc.dk/documentation virkede ikke med mit client-id. Jeg modtog fejlen `{"error":"server_error","error_description":"Server error: missing client 'grants'"}`.  I stedet hentede jeg en token som beskrevet på https://openplatform.dbc.dk/v3/.  Forskellen var, om token blev hentet fra `https://login.bib.dk/oauth/token` eller `https://auth.dbc.dk/oauth/token`, så det kan være at det skal dette ændres i dokumentationen.
 
 ## Stikprøve af bibliografiske data for at se hvilke felter der benyttes praksis
 
